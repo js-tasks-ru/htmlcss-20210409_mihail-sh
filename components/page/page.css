@@ -1,5 +1,5 @@
 .main-page {
-  color: #212429;
+  color: var(--black);
 }
 
 .main-page__header {
