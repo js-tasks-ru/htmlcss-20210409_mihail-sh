@@ -1,9 +1,5 @@
 /* Стилизация кнопки */
 
-.container {
-  margin-bottom: 10px;
-}
-
 .button {
   width: 189px;
   height: 48px;
@@ -21,14 +17,7 @@
 .button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-}
-
-.button:active {
-  outline: 0;
-}
-
-.button:focus {
-  outline: 0;
+  pointer-events: none;
 }
 
 .button_primary {
